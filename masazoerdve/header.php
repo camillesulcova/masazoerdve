@@ -14,6 +14,8 @@
                   $location_cta= get_field("location_cta")
                   $phone_number = get_field("phone_number");
                   $email = get_field("email");
+                  $facebook = get_field ("facebook");
+                  $instagram = get_field ("instagram");
                 ?>
   <!-- Topbar Start -->
 <div class="container-fluid topbar px-5 d-none d-lg-block">
@@ -28,8 +30,8 @@
         </div>
         <div class="col-lg-4 text-center text-lg-end">
             <div class="d-flex align-items-center justify-content-end">
-                <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3 btn-sm"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill btn-sm"><i class="fab fa-instagram"></i></a>
+                <a href="<?php echo $facebook; ?>" class="btn btn-light btn-square border rounded-circle nav-fill me-3 btn-sm"><i class="fab fa-facebook"></i></a>
+                <a href="<?php echo $instagram; ?>" class="btn btn-light btn-square border rounded-circle nav-fill btn-sm"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
       </div>
@@ -46,7 +48,8 @@
       <nav class="navbar navbar-expand-lg navbar-light px-3 px-0 py-3 py-lg-0">
         <a href="index.html" class="navbar-brand p-0">
           <h1 class="text-success m-0"><i class="fas fa-star-of-life me-3"></i>Terapia</h1>
-          <!-- <img src="img/logo.png" alt="Logo"> -->
+          <!-- <img src="img/logo.png" alt="Logo">
+        ???? logo???? -->
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
           <span class="fa fa-bars"></span>
