@@ -35,9 +35,7 @@ $heading_massage = get_field("heading_massage");
             <!-- Tab Content -->
             <!-- Custom loop for massages types -->
             <div class="tab-content" id="nav-tabContent">
-           
-              <div class="tab-pane fade show active" id="nav-massage1" role="tabpanel"
-                aria-labelledby="nav-massage1-tab" <?php $isFirst ? "active" : "" ?>>
+        
                 
                 <div class="row">
                     <?php
@@ -57,22 +55,23 @@ $heading_massage = get_field("heading_massage");
                             $card_image = get_field("card_image");
                             $massage_type = get_field("massage_type");
                             ?>
-                            <div class="col-md-6 col-lg-6">
-                                <span class="h5 fw-lighter">  <?php echo $number; ?></span>
-                                <h4 class="py-4 border-top border-dark"><?php echo $massage_type; ?></h4>
-                                <p><?php echo $massage_description; ?> </p>
-                                <p><?php echo $massage_cta; ?></p>
+                            <div class="tab-pane fade show <?php $isFirst ? "active" : "" ?>" id="nav-massage1" role="tabpanel" aria-labelledby="nav-massage1-tab">
+                                <div class="col-md-6 col-lg-6">
+                                    <span class="h5 fw-lighter">  <?php echo $number; ?></span>
+                                    <h4 class="py-4 border-top border-dark"><?php echo $massage_type; ?></h4>
+                                    <p><?php echo $massage_description; ?> </p>
+                                    <p><?php echo $massage_cta; ?></p>
 
 
-                            </div>
-                            <div class="col-md-6" style="padding-top: 5rem;">
-                                <img src="<?php echo $card_image["url"] ?>" class="d-block w-100 massages-img" alt="Massage 1">
+                                </div>
+                                <div class="col-md-6" style="padding-top: 5rem;">
+                                    <img src="<?php echo $card_image["url"] ?>" class="d-block w-100 massages-img" alt="Massage 1">
+                                </div>
                             </div>
                         <?php $isFirst = false; ?>
                         <?php endwhile ?>
                     <?php endif ?>
                 </div>
-              </div>
 
              
             
