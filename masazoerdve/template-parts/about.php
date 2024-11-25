@@ -1,6 +1,6 @@
 <section id="about">
                 <?php
-                  $image_top= get_field("image_top")
+                  $image_top= get_field("image_top");
                   $image_left = get_field("image_left");
                   $image_right = get_field("image_right");
                   $headline_about = get_field ("headline_about");
