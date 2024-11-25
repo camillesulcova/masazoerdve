@@ -16,17 +16,17 @@
               <div class="row gx-4 d-flex">
                 <div class="col-md-12">
                   <div class="shadow ratio ratio-16x9  bg-cover bp-center align-self-end" data-aos="fade-right"
-                    style="background-image: <?php echo $image_top["url"]; ?>;--bs-aspect-ratio: 50%; background-size: contain;">
+                    style="background-image: url(<?php echo $image_top["url"]; ?>);--bs-aspect-ratio: 50%; background-size: contain;">
                   </div>
                 </div>
                 <div class="col-md-5 offset-md-1">
                   <div class="shadow ratio ratio-1x1  bg-cover mt-4 bp-center float-end" data-aos="fade-up"
-                    style="background-image: <?php echo $image_right["url"]; ?>; background-size: contain;">
+                    style="background-image: url(<?php echo $image_right["url"]; ?>); background-size: contain;">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="col-12 shadow ratio  bg-cover mt-4 bp-center" data-aos="fade-left"
-                    style="background-image: <?php echo $image_left["url"]; ?>;--bs-aspect-ratio: 150%; background-size: contain;">
+                    style="background-image: url(<?php echo $image_left["url"]; ?>);--bs-aspect-ratio: 150%; background-size: contain;">
                   </div>
                 </div>
               </div>
