@@ -7,6 +7,10 @@
 
     <!--about me-->
 
+    <!--types of massages-->
+   <?php get_template_part ("template-parts/massages.php");?>
+  
+    <!--types of massages-->
 
         <?php endwhile ?>
     <?php endif ?>

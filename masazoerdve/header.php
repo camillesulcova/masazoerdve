@@ -57,11 +57,11 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
             <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link">About</a>
-            <a href="service.html" class="nav-item nav-link">Services</a>
-            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            <a href="#about" class="nav-item nav-link">About</a>
+            <a href="#massages" class="nav-item nav-link">Services</a>
+            <a href="#appoitment" class="nav-item nav-link">Contact Us</a>
           </div>
-          <a href="#" class="btn btn-book-appointment">Book Appointment</a>
+          <a href="#appoitment" class="btn btn-book-appointment">Book Appointment</a>
         </div>
       </nav>
     </section>
