@@ -1,7 +1,9 @@
 <?php get_header() ?>
     <?php if(have_posts()): ?>
         <?php while(have_posts()): the_post() ?>
-
+<!--hero-->
+<?php get_template_part("template-parts/hero.php"); ?>
+<!--hero-->
  <!--about me-->
  <?php get_template_part("template-parts/about.php"); ?>
 

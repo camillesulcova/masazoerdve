@@ -1,4 +1,7 @@
 <br>
+<?php
+$heading_massage = get_field("heading_massage");
+?>
     <section id="massages">
       <div class="py-vh-5 w-100 overflow-hidden" id="services">
         <div class="container">
@@ -7,8 +10,7 @@
 <div class="row d-flex justify-content-end" style="padding-top: 7rem;">
   <div class="col-lg-10 offset-lg-2 d-flex justify-content-end">
     <h3 class="display-6" style="max-width: 800px; margin-left: auto;">
-      Masažas – tai ne tik atsipalaidavimas, bet ir veiksmingas būdas pagerinti fizinę bei
-      emocinę savijautą, pritaikytas jūsų unikaliems poreikiams.
+    <?php echo $heading_massage; ?>
     </h3>
   </div>
 </div>
