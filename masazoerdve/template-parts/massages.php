@@ -78,6 +78,6 @@ $heading_massage = get_field("heading_massage");
             
             </div>
           </div>
-
+    </div>
 
     </section>
