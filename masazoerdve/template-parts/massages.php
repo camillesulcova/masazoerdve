@@ -1,6 +1,7 @@
 <br>
 <?php
 $heading_massage = get_field("heading_massage");
+
 ?>
     <section id="massages">
       <div class="py-vh-5 w-100 overflow-hidden" id="services">
@@ -32,83 +33,47 @@ $heading_massage = get_field("heading_massage");
             </nav>
 
             <!-- Tab Content -->
+            <!-- Custom loop for massages types -->
             <div class="tab-content" id="nav-tabContent">
+            <?php
+                                $isFirst = true;
+                                $massage= new WP_Query(array(
+                                 'post_type' => 'massage',
+                                  'posts_per_page' => -1,
+                                                          ));
+                                                      ?>
+                                                      
+                                      <?php if($massage->have_posts()): ?>
+                                       <?php while($massage->have_posts()): $massage->the_post(); ?>
+                                       <?php
+                                  $number = get_field("number");
+                                  $massage_description = get_field("massage_description");
+                                  $massage_cta = get_field("massage_cta");
+                                  $card_image = get_field("card_image");
+                                  $massage_type = get_field("massage_type");
+                                  ?>
               <div class="tab-pane fade show active" id="nav-massage1" role="tabpanel"
-                aria-labelledby="nav-massage1-tab">
+                aria-labelledby="nav-massage1-tab" <?php $isFirst ? "active" : "" ?>>
+                
                 <div class="row">
                   <div class="col-md-6 col-lg-6">
-                    <span class="h5 fw-lighter">01.</span>
-                    <h4 class="py-4 border-top border-dark">Meridijaninis kūno masažas Raseiniuose: energijos balanso atkūrimas</h4>
-                    <p>Meridijaninis masažas Raseiniuose – tai tradicine kinų medicina paremtas metodas, skirtas atkurti
-                      gyvybinės energijos tėkmę jūsų kūne. Šis masažas yra puikus sprendimas norint sumažinti įtampą,
-                      pagerinti
-                      kraujotaką ir harmonizuoti energijos balansą. Tai ypač naudinga, jei ieškote holistinio būdo
-                      pagerinti
-                      savo fizinę ir emocinę sveikatą.</p>
-                    <p>Nesvarbu, ar esate sportininkas, aktyvaus gyvenimo būdo mėgėjas, ar tiesiog norite sumažinti
-                      sąstingį
-                      kūne, Meridijaninis masažas padeda atpalaiduoti raumenis ir sustiprinti organizmo funkcijas.
-                      Išbandykite
-                      šį masažą Raseiniuose ir pajuskite harmonijos naudą.</p>
-                    <p style="font-weight: bold;">Kuo naudingas meridianinis masažas?</p>
-                    <ul>
-                      <li>Mažina nugaros ir galvos skausmus.</li>
-                      <li>Gerina kvėpavimo ir limfinės sistemos veiklą.</li>
-                      <li>Atkuria lankstumą ir energijos balansą.</li>
-                    </ul>
-                    <p>Rezervuokite meridijaninį masažą Raseiniuose ir atkurkite kūno harmoniją jau šiandien!</p>
+                    <span class="h5 fw-lighter">  <?php echo $number; ?></span>
+                    <h4 class="py-4 border-top border-dark"><?php echo $massage_type; ?></h4>
+                    <p><?php echo $massage_description; ?> </p>
+                    <p><?php echo $massage_cta; ?></p>
 
 
                   </div>
                   <div class="col-md-6" style="padding-top: 5rem;">
-                    <img src="img/meridian2 2.png" class="d-block w-100 massages-img" alt="Massage 1">
+                    <img src="<?php echo $card_image["url"] ?>" class="d-block w-100 massages-img" alt="Massage 1">
                   </div>
                 </div>
               </div>
 
-              <div class="tab-pane fade " id="nav-massage2" role="tabpanel" aria-labelledby="nav-massage2-tab">
-                <div class="row">
-                  <div class="col-md-6 col-lg-6">
-                    <span class="h5 fw-lighter">02.</span>
-                    <h4 class="py-4 border-top border-dark">Klasikinis kūno masažas Raseiniuose: atsipalaidavimas ir raumenų atsigavimas</h4>
-                    <p>Klasikinis kūno masažas yra patikima terapija, kuri padeda atsikratyti kasdienės įtampos ir pagerinti bendrą savijautą. Šis masažas atpalaiduoja raumenis, gerina kraujotaką ir suteikia visišką atsipalaidavimą. Tai universali masažo technika, kurią galima pritaikyti kiekvienam individualiai.</p>
-                    <p>Be fizinės naudos, klasikinis masažas taip pat padeda mažinti stresą ir kurti emocinį balansą. Nesvarbu, ar norite atsigauti po ilgos dienos, ar tiesiog pasimėgauti ramybe, klasikinis masažas yra tobulas pasirinkimas.</p>
-                    <p style="font-weight: bold;">Kuo naudingas klasikinis kūno masažas?</p>
-                    <ul>
-                      <li>Pagerina kraujotaką, raumenų tonusą ir odos elastingumą.</li>
-                      <li>Mažina stresą ir padeda pasiekti emocinį balansą.</li>
-                      <li>Skatina sąnarių judrumą ir stiprina imuninę sistemą.</li>
-                    </ul>
-                    <p>Pasirinkite klasikinį kūno masažą Raseiniuose ir leiskite man pasirūpinti jūsų gerove jau šiandien!</p>
-
-                  </div>
-                  <div class="col-md-6" style="padding-top: 5rem;">
-                    <img src="img/massage.png" class="d-block w-100 massages-img" alt="Massage 2">
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-pane fade " id="nav-massage3" role="tabpanel" aria-labelledby="nav-massage3-tab">
-                <div class="row">
-                  <div class="col-md-6 col-lg-6">
-                    <span class="h5 fw-lighter">03.</span>
-                    <h4 class="py-4 border-top border-dark">Pėdų masažas Raseiniuose: sveikata prasideda nuo pėdų</h4>
-                    <p>Pėdų masažas Raseiniuose – tai refleksoterapijos principu pagrįsta terapija, kuri orientuota į svarbiausių pėdų taškų stimuliavimą. Šis masažas skatina vidaus organų funkcijų gerinimą, mažina stresą ir pagerina bendrą organizmo savijautą. Puikiai tinka tiems, kurie ieško greito ir veiksmingo atsipalaidavimo po ilgos dienos.</p>
-                    <p>Tai ne tik maloni procedūra, bet ir būdas pagerinti kraujotaką, limfinės sistemos darbą ir imuninės sistemos funkcijas. Atraskite, kaip pėdų masažas Raseiniuose gali padėti jums jaustis lengviau ir gyvybingiau.</p>
-                    <p style="font-weight: bold;">Kuo naudingas pėdų masažas?</p>
-                    <ul>
-                      <li>Atpalaiduoja kūną, mažina nuovargį.</li>
-                      <li>Skatina kraujotaką ir limfinės sistemos veiklą.</li>
-                      <li>Stiprina imunitetą ir pagerina miego kokybę.</li>
-                    </ul>
-                    <p>Rezervuokite pėdų masažo laiką Raseiniuose ir pajuskite, kaip gerėja jūsų kūno savijauta!</p>
-
-                  </div>
-                  <div class="col-md-6" style="padding-top: 5rem;">
-                    <img src="img/foot 2.png" class="d-block w-100 massages-img" alt="Massage 3">
-                  </div>
-                </div>
-              </div>
+             
+              <?php $isFirst = false; ?>
+              <?php endwhile ?>
+            <?php endif ?>
             </div>
           </div>
 

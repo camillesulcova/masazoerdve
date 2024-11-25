@@ -21,9 +21,9 @@ $benefit_description = get_field("benefit_description");
       <div class="small py-vh-3 w-100 overflow-hidden" style="padding-top: 5rem;">
         <div class="container">
           <div class="row">
-                <!-- custom loop for products -->
+                <!-- custom loop for benefits -->
                 <?php
-                                
+                               
                                 $benefit= new WP_Query(array(
                                  'post_type' => 'benefit',
                                   'posts_per_page' => -1,
@@ -31,7 +31,7 @@ $benefit_description = get_field("benefit_description");
                                                       ?>
                                                       
                                       <?php if($benefit->have_posts()): ?>
-                                       <?php while($benefit->have_posts()): $tbenefit->the_post(); ?>
+                                       <?php while($benefit->have_posts()): $benefit->the_post(); ?>
                                        <?php
                                   $headline_benefit_card = get_field("headline_benefit_card");
                                   $benefit_card_description = get_field("benefit_card_description");
@@ -49,6 +49,9 @@ $benefit_description = get_field("benefit_description");
                 </p>
               </div>
             </div>
+            
+            <?php endwhile ?>
+            <?php endif ?>
           </div>
         </div>
       </div>
