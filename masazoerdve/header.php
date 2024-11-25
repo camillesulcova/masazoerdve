@@ -11,7 +11,7 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navScroll">
 <?php
-                  $location_cta= get_field("location_cta")
+                  $location_cta= get_field("location_cta");
                   $phone_number = get_field("phone_number");
                   $email = get_field("email");
                   $facebook = get_field ("facebook");
