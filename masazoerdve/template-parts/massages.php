@@ -71,6 +71,7 @@ $heading_massage = get_field("heading_massage");
                         <?php $isFirst = false; ?>
                         <?php endwhile ?>
                     <?php endif ?>
+                    <?php wp_reset_postdata() ?>
                 </div>
 
              
