@@ -18,6 +18,7 @@
     <!--benefits-->
 <?php get_template_part("template-parts/benefits"); ?>
     <!--benefits-->
+    <?php echo do_shortcode('[wp-testimonials widget-id=1]'); ?>
 
 
         <?php endwhile ?>
