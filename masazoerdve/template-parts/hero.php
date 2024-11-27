@@ -35,7 +35,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h3 class="modal-title" id="bookAppointmentModalLabel"><?php echo $title_contact_modal ?></h3>
+              <h4 class="modal-title" id="bookAppointmentModalLabel"><?php echo $title_contact_modal ?></h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
