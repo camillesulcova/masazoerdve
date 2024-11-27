@@ -305,6 +305,11 @@ h3, .h3 {
     font-family: var(--p-font);
 }
 
+.footer .footer-item {
+    text-align: left; /* Align text to the left */
+    justify-content: flex-start; /* Align items to the start of the container */
+}
+
 /* Align the social media icons in the center */
 .social-icons {
     display: flex;
@@ -318,7 +323,9 @@ h3, .h3 {
     color: var(--c-dark);
     line-height: 35px;
     transition: letter-spacing 0.5s ease, color 0.5s ease;
+    text-align: left;
 }
+
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
