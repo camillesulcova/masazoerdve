@@ -6,7 +6,7 @@
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
             <h4 class="text-black mb-4"><i class="fas fa-star-of-life me-3"></i>Terapia</h4>
-            <p> All rights reserved © 2024 Masažo erdvė</p>
+           
             
             <!-- Centered Social Media Section -->
             <div class="social-icons d-flex justify-content-center align-items-center mt-4">
