@@ -9,7 +9,7 @@ function masazoerdve() {
     // Enqueue Scripts
     wp_enqueue_script("jquery", "https://code.jquery.com/jquery-3.6.0.min.js", array(), null, true);
     wp_enqueue_script("popper", "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js", array(), null, true);
-    wp_enqueue_script("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js", array("jquery", "popper"), null, true);
+    wp_enqueue_script("bootstrap", "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js", array("jquery", "popper"), null, true);
     
     // Enqueue AOS Library
     wp_enqueue_style("aos-css", "https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css");
