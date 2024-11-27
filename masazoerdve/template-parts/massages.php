@@ -3,14 +3,14 @@
     <div class="container">
 
       <!-- Section Heading -->
-      <div class="row d-flex justify-content-end" style="padding-top: 7rem;" data-aos="fade-up">
-    <div class="col-lg-10 offset-lg-2 d-flex justify-content-end">
-        <h3 class="display-6" style="max-width: 800px; margin-left: auto;" data-aos="fade-left">
+      <?php $heading_massage = get_field("heading_massage"); ?>
+      <div class="row d-flex justify-content-end" style="padding-top: 7rem;">
+        <div class="col-lg-10 offset-lg-2 d-flex justify-content-end">
+          <h3 class="display-6" style="max-width: 800px; margin-left: auto;">
             <?php echo $heading_massage; ?>
-        </h3>
-    </div>
-</div>
-
+          </h3>
+        </div>
+      </div>
 
       <!-- Massage Tab Section -->
       <div class="container my-5">
