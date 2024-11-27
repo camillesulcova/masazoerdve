@@ -15,7 +15,8 @@ function masazoerdve() {
     wp_enqueue_style("aos-css", "https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css");
     wp_enqueue_script("aos-js", "https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js", array(), null, true);
 
-
+    // Initialize AOS
+    wp_add_inline_script("aos-js", "AOS.init();");
 }
 add_action("wp_enqueue_scripts", "masazoerdve");
 
