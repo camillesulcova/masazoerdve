@@ -11,77 +11,61 @@
         </div>
       </div>
 
-      <!-- Massage Dropdown Section -->
+      <!-- Massage Tab Section -->
       <div class="container my-5">
         <nav>
-          <div class="d-flex justify-content-start mb-3">
-            <!-- Dropdown for Massage Types -->
-            <select class="form-select py-3 bg-transparent" style="border-color: var(--c-dark);" id="massage-select">
-              <option selected disabled>Pasirinkite masažą</option>
-              <?php
-              $massage_query = new WP_Query(array(
-                'post_type' => 'massage',
-                'posts_per_page' => -1,
-              ));
-
-              if ($massage_query->have_posts()): 
-                $tab_index = 1; // Start with the first tab
-                while ($massage_query->have_posts()): $massage_query->the_post(); 
-                  $massage_type = get_field("massage_type");
-                  ?>
-                  <option value="nav-massage<?php echo $tab_index; ?>">
-                    <?php echo $massage_type; ?>
-                  </option>
-                  <?php 
-                  $tab_index++; 
-                endwhile; 
-                wp_reset_postdata(); 
-              endif; 
-              ?>
-            </select>
+          <!-- Tab Buttons -->
+          <div class="nav nav-tabs justify-content-left" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-massage1-tab" data-bs-toggle="tab"
+              data-bs-target="#nav-massage1" type="button" aria-controls="nav-massage1" aria-selected="true"
+              role="tab">Meridianinis masažas</button>
+            <button class="nav-link" id="nav-massage2-tab" data-bs-toggle="tab" data-bs-target="#nav-massage2"
+              type="button" aria-controls="nav-massage2" aria-selected="false" role="tab">Klasikinis masažas</button>
+            <button class="nav-link" id="nav-massage3-tab" data-bs-toggle="tab" data-bs-target="#nav-massage3"
+              type="button" aria-controls="nav-massage3" aria-selected="false" role="tab">Pėdų masažas</button>
           </div>
         </nav>
 
         <!-- Tab Content -->
         <div class="tab-content" id="nav-tabContent">
           <?php
-          $isFirst = true; // Reset for the tab content
-          $massage_query = new WP_Query(array(
+          $isFirst = true;
+          $massage = new WP_Query(array(
             'post_type' => 'massage',
             'posts_per_page' => -1,
           ));
+          ?>
 
-          if ($massage_query->have_posts()): 
-            $tab_index = 1; // Start with the first tab-pane
-            while ($massage_query->have_posts()): $massage_query->the_post(); 
+          <?php if ($massage->have_posts()): ?>
+            <?php while ($massage->have_posts()): $massage->the_post(); ?>
+              <?php
+              $number = get_field("number");
               $massage_description = get_field("massage_description");
               $massage_cta = get_field("massage_cta");
               $card_image = get_field("card_image");
               $massage_type = get_field("massage_type");
               ?>
-              <div class="tab-pane fade <?php echo $isFirst ? 'show active' : ''; ?>" 
-                id="nav-massage<?php echo $tab_index; ?>" 
-                role="tabpanel" 
-                aria-labelledby="nav-massage<?php echo $tab_index; ?>-tab">
+
+              <!-- Generate Tab Pane -->
+              <div class="tab-pane fade <?php echo $isFirst ? 'show active' : ''; ?>" id="nav-massage<?php echo $number; ?>"
+                role="tabpanel" aria-labelledby="nav-massage<?php echo $number; ?>-tab">
                 <div class="row">
                   <div class="col-md-6 col-lg-6">
-                    <span class="h5 fw-lighter"><?php echo $tab_index; ?>.</span>
+                    <span class="h5 fw-lighter"><?php echo $number; ?>.</span>
                     <h4 class="py-4 border-top border-dark"><?php echo $massage_type; ?></h4>
                     <p><?php echo $massage_description; ?></p>
                     <p><?php echo $massage_cta; ?></p>
                   </div>
                   <div class="col-md-6" style="padding-top: 5rem;">
-                    <img src="<?php echo $card_image["url"]; ?>" class="d-block w-100 massages-img" alt="<?php echo $massage_type; ?>">
+                    <img src="<?php echo $card_image["url"]; ?>" class="d-block w-100 massages-img" alt="Massage <?php echo $number; ?>">
                   </div>
                 </div>
               </div>
-              <?php 
-              $isFirst = false; 
-              $tab_index++; 
-            endwhile; 
-            wp_reset_postdata(); 
-          endif; 
-          ?>
+              <?php $isFirst = false; ?>
+            <?php endwhile; ?>
+          <?php endif; ?>
+
+          <?php wp_reset_postdata(); ?>
         </div>
 
       </div>
