@@ -18,8 +18,8 @@
     <?php get_template_part("template-parts/benefits"); ?>
     <!--benefits-->
 
-    <!--appointment-->
-    <?php get_template_part('template-parts/appointment'); ?>
+    <!--appointment ------------------------------------------------------------------------------------------no works-->
+    <?php get_template_part('template-parts/appoitment'); ?>  
     <!--appointment-->
 
     <!--testimonials-->
