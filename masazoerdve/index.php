@@ -18,6 +18,10 @@
     <?php get_template_part("template-parts/benefits"); ?>
     <!--benefits-->
 
+    <!--appointment-->
+    <?php get_template_part('template-parts/appointment'); ?>
+    <!--appointment-->
+
     <!--testimonials-->
     <?php echo do_shortcode('[wp-testimonials widget-id=1]'); ?>
     <!--testimonials-->
