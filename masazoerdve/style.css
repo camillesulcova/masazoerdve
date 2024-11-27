@@ -426,23 +426,32 @@ h3, .h3 {
 }
 
 /* Modal  */
-.modal-dialog {
-    max-width: 500px;
-    margin: 100px auto; /* Center vertically */
+.modal-content {    
+    text-align: center;
+    margin-top: 15px;
+    color: var(--c-dark);
     background-color: var(--c-light);
 }
 
-.bookAppointmentModal {
-    color: var(--c-dark);
+.modal-title {
+    color: var(--c-purple);
 }
 
-.modal-body .btn {
-    width: 100%; /* all width */
-    text-align: center;
-    margin-top: 15px;
+.wpcf7-submit {
+    background: var(--c-purple);
+    color: var(--c-light);
+    font-family: var(--p-font);
+    font-size: 16px;
+    padding: 12px 25px;
+    border-radius: 0px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-
+.wpcf7-submit:hover {
+    background: var(--c-pink);
+    color: var(--c-light);
+    transform: scale(1.05);
+}
    
 
 /* Medias Queries */
