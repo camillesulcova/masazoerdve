@@ -11,40 +11,34 @@
         </div>
       </div>
 
-      <!-- Massage Tab Section -->
+      <!-- Massage Dropdown Section -->
       <div class="container my-5">
         <nav>
-          <!-- Tab Buttons -->
-          <div class="nav nav-tabs justify-content-left" id="nav-tab" role="tablist">
-            <?php
-            $isFirst = true;
-            $massage_query = new WP_Query(array(
-              'post_type' => 'massage',
-              'posts_per_page' => -1,
-            ));
+          <div class="d-flex justify-content-start mb-3">
+            <!-- Dropdown for Massage Types -->
+            <select class="form-select py-3 bg-transparent" style="border-color: var(--c-dark);" id="massage-select">
+              <option selected disabled>Pasirinkite masažą</option>
+              <?php
+              $massage_query = new WP_Query(array(
+                'post_type' => 'massage',
+                'posts_per_page' => -1,
+              ));
 
-            if ($massage_query->have_posts()): 
-              $tab_index = 1; // Start with the first tab
-              while ($massage_query->have_posts()): $massage_query->the_post(); 
-                $massage_type = get_field("massage_type");
-                ?>
-                <button class="nav-link <?php echo $isFirst ? 'active' : ''; ?>" 
-                  id="nav-massage<?php echo $tab_index; ?>-tab" 
-                  data-bs-toggle="tab" 
-                  data-bs-target="#nav-massage<?php echo $tab_index; ?>" 
-                  type="button" 
-                  aria-controls="nav-massage<?php echo $tab_index; ?>" 
-                  aria-selected="<?php echo $isFirst ? 'true' : 'false'; ?>" 
-                  role="tab">
-                  <?php echo $massage_type; ?>
-                </button>
-                <?php 
-                $isFirst = false; 
-                $tab_index++; // Increment tab index for next tab
-              endwhile; 
-              wp_reset_postdata(); 
-            endif; 
-            ?>
+              if ($massage_query->have_posts()): 
+                $tab_index = 1; // Start with the first tab
+                while ($massage_query->have_posts()): $massage_query->the_post(); 
+                  $massage_type = get_field("massage_type");
+                  ?>
+                  <option value="nav-massage<?php echo $tab_index; ?>">
+                    <?php echo $massage_type; ?>
+                  </option>
+                  <?php 
+                  $tab_index++; 
+                endwhile; 
+                wp_reset_postdata(); 
+              endif; 
+              ?>
+            </select>
           </div>
         </nav>
 
@@ -83,7 +77,7 @@
               </div>
               <?php 
               $isFirst = false; 
-              $tab_index++; // Increment tab index for next tab
+              $tab_index++; 
             endwhile; 
             wp_reset_postdata(); 
           endif; 
