@@ -32,7 +32,7 @@
             <h4 class="mb-4 text-black">Quick Links</h4>
             <a href="#about"><i class="fas fa-angle-right me-2"></i> About Us</a>
             <a href="#appointment"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-            <a href="https://example.com/wp-content/uploads/2024/11/privacy-policy.pdf" target="_blank">
+            <a href="https://masazoerdve.lt//wp-content/uploads/2024/11/privacy-policy.pdf" target="_blank">
                     <i class="fas fa-angle-right me-2"></i> Privacy Policy
             </a>
             </div>
