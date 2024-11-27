@@ -22,7 +22,7 @@
     <!--testimonials-->
  <?php echo do_shortcode('[wp-testimonials widget-id=1]'); ?>
     <!--testimonials-->
-
+test
 
         <?php endwhile ?>
     <?php endif ?>
