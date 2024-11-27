@@ -1,6 +1,6 @@
     <!-- Footer Start -->
 <section id="footer">
-  <div class="container-fluid footer py-5" data-wow-delay="0.2s">
+  <div class="container-fluid footer py-5">
     <div class="container py-5">
       <div class="row g-5 justify-content-center text-center">
         <div class="col-md-6 col-lg-6 col-xl-3">
