@@ -3,6 +3,7 @@
     <div class="container">
 
       <!-- Section Heading -->
+      <?php $heading_massage = get_field("heading_massage"); ?>
       <div class="row d-flex justify-content-end" style="padding-top: 7rem;">
         <div class="col-lg-10 offset-lg-2 d-flex justify-content-end">
           <h3 class="display-6" style="max-width: 800px; margin-left: auto;">
