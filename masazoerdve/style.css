@@ -4,7 +4,7 @@ Author: MStudio
 Description: Therapist website
 */
 
-/* Importación de fuentes */
+/* Fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -22,7 +22,7 @@ Description: Therapist website
     --p-font: 'Poppins';
 }
 
-/* Estilos Globales */
+/* Global style */
 body {
     font-family: var(--p-font);
     background-color: var(--c-light);
@@ -30,7 +30,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Títulos Principales */
+/* main titles */
 h1, .h1 {
     font-family: var(--h-font);
     font-size: 56px;
@@ -424,6 +424,25 @@ h3, .h3 {
     color: var(--c-light);
     transform: scale(1.05);
 }
+
+/* Modal  */
+.modal-dialog {
+    max-width: 500px;
+    margin: 100px auto; /* Center vertically */
+    background-color: var(--c-light);
+}
+
+.bookAppointmentModal {
+    color: var(--c-dark);
+}
+
+.modal-body .btn {
+    width: 100%; /* all width */
+    text-align: center;
+    margin-top: 15px;
+}
+
+
    
 
 /* Medias Queries */

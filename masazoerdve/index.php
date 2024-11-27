@@ -6,7 +6,6 @@
     <?php get_template_part("template-parts/hero"); ?>
     <!--hero-->
 
-
     <!--types of massages-->
     <?php get_template_part ("template-parts/massages");?>
     <!--types of massages-->
