@@ -296,48 +296,41 @@ h3, .h3 {
     transform: scale(1.05);
 }
 
-/* Footer Styling */
+/* Footer */
 .footer {
     background: rgb(243, 243, 243);
     color: var(--c-dark);
+    padding: 40px 20px;
+    text-align: center;
     font-family: var(--p-font);
 }
 
-/* Footer Items - Left Align */
 .footer .footer-item {
-    text-align: left !important; /* Override other styles */
-
-    justify-content: flex-start; /* Ensure items start from the left */
+    text-align: left; /* Align text to the left */
+    justify-content: flex-start; /* Align items to the start of the container */
 }
 
-/* Footer Links and Paragraphs */
-.footer .footer-item a,
-.footer .footer-item p {
-    color: var(--c-dark);
-    line-height: 1.8; /* Adjust spacing for readability */
-    text-align: left !important; /* Ensure text is aligned left */
-}
-
-.footer .row {
-    justify-content: flex-start !important; /* Align all columns to the left */
-    text-align: left !important; /* Text alignment for all content */
-}
-
-/* Footer Bottom Section */
-.footer-bottom {
-    background: rgb(220, 220, 220); /* Optional: Add a subtle background for contrast */
-    text-align: center; /* Center-align the text */
-    padding: 10px 0; /* Add some spacing */
-    font-size: 25px; /* Slightly smaller font */
-    color: var(--c-dark);
-}
-
+/* Align the social media icons in the center */
 .social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Adjust links and paragraphs */
+.footer .footer-item a,
+.footer .footer-item p {
+    color: var(--c-dark);
+    line-height: 35px;
+    transition: letter-spacing 0.5s ease, color 0.5s ease;
+    text-align: left;
+}
+
+
+.footer .footer-item a:hover {
+    letter-spacing: 2px;
+    color: var(--c-pink);
+}
 
 
 /* Links */
