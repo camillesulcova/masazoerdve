@@ -20,11 +20,12 @@ function masazoerdve() {
 }
 add_action("wp_enqueue_scripts", "masazoerdve");
 
-function enqueue_aos_scripts() {
-    wp_enqueue_style('aos-css', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css', array(), '2.3.4');
+function enqueue_theme_scripts() {
     wp_enqueue_script('aos-js', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js', array('jquery'), '2.3.4', true);
+    wp_enqueue_script('custom-js', get_template_directory_uri() . '/script.js', array('jquery', 'aos-js'), '1.0', true);
 }
-add_action('wp_enqueue_scripts', 'enqueue_aos_scripts');
+add_action('wp_enqueue_scripts', 'enqueue_theme_scripts');
+
 
 
 function masazoerdve_remove_gutenberg() {
