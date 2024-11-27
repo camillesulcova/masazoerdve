@@ -1,5 +1,4 @@
-<section id="appointment" style="padding-top: 7rem;">
-  <?php 
+<?php 
   $appointment_headline = get_field("appointment_headline");
   $appointment_cta = get_field("appointment_cta");
   $appointment_subheadline = get_field("appointment_subheadline");
@@ -9,8 +8,10 @@
   $title_modal_appointment = get_field("title_modal_appointment");
   $subtitle_modal_appointment = get_field("subtitle_modal_appointment");
   ?>
-  
-  <div class="container-fluid appointment py-5" >
+
+
+<section id="appointment" style="padding-top: 7rem;">   
+  <div class="container-fluid appointment py-5">
     <div class="container pt-4">
       <div class="row g-5 align-items-start">
         <!-- Left Block -->
