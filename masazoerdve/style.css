@@ -305,7 +305,8 @@ h3, .h3 {
 
 /* Footer Items - Left Align */
 .footer .footer-item {
-    text-align: left; /* Align text to the left */
+    text-align: left !important; /* Override other styles */
+
     justify-content: flex-start; /* Ensure items start from the left */
 }
 
@@ -314,7 +315,12 @@ h3, .h3 {
 .footer .footer-item p {
     color: var(--c-dark);
     line-height: 1.8; /* Adjust spacing for readability */
-    text-align: left; /* Ensure text is aligned left */
+    text-align: left !important; /* Ensure text is aligned left */
+}
+
+.footer .row {
+    justify-content: flex-start !important; /* Align all columns to the left */
+    text-align: left !important; /* Text alignment for all content */
 }
 
 /* Footer Bottom Section */
