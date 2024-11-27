@@ -25,7 +25,7 @@ Description: Therapist website
 /* Estilos Globales */
 body {
     font-family: var(--p-font);
-    background-color: var(--c-pink);
+    background-color: var(--c-light);
     color: var(--c-dark);
     overflow-x: hidden;
 }
