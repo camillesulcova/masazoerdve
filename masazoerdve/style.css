@@ -332,6 +332,15 @@ h3, .h3 {
     color: var(--c-pink);
 }
 
+/* Footer Bottom Section */
+.footer-bottom {
+    background: rgb(220, 220, 220); /* Optional: Add a subtle background for contrast */
+    text-align: center; /* Center-align the text */
+    padding: 10px 0; /* Add some spacing */
+    font-size: 14px; /* Slightly smaller font */
+    color: var(--c-dark);
+}
+
 
 /* Links */
 .link-fancy {
