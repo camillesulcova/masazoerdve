@@ -28,6 +28,7 @@
               while ($massage_query->have_posts()): $massage_query->the_post(); 
                 $massage_type = get_field("massage_type");
                 ?>
+                <?php $button_text = get_field("button_text"); ?>
                 <button class="nav-link <?php echo $isFirst ? 'active' : ''; ?>" 
                   id="nav-massage<?php echo $tab_index; ?>-tab" 
                   data-bs-toggle="tab" 
@@ -36,7 +37,7 @@
                   aria-controls="nav-massage<?php echo $tab_index; ?>" 
                   aria-selected="<?php echo $isFirst ? 'true' : 'false'; ?>" 
                   role="tab">
-                  <?php echo $massage_type; ?>
+                  <?php echo $button_text; ?>
                 </button>
                 <?php 
                 $isFirst = false; 
@@ -64,6 +65,7 @@
               $massage_cta = get_field("massage_cta");
               $card_image = get_field("card_image");
               $massage_type = get_field("massage_type");
+             
               ?>
               <div class="tab-pane fade <?php echo $isFirst ? 'show active' : ''; ?>" 
                 id="nav-massage<?php echo $tab_index; ?>" 
