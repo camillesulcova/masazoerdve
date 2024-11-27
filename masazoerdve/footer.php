@@ -46,7 +46,7 @@
       </div>
     </div>
     <!-- Footer Bottom Section -->
-    <div class="footer-bottom text-center py-3">
+    <div class="footer-bottom text-center py-3 pt-3">
       <p>All rights reserved © 2024 Masažo erdvė</p>
     </div>
   </div>
