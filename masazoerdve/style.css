@@ -298,7 +298,7 @@ h3, .h3 {
 
 /* Footer */
 .footer {
-    background: rgb(243, 243, 243);
+    background-color: var(--c-light);
     color: var(--c-dark);
     padding: 40px 20px;
     text-align: center;
@@ -330,6 +330,15 @@ h3, .h3 {
 .footer .footer-item a:hover {
     letter-spacing: 2px;
     color: var(--c-pink);
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    background-color: var(--c-light);
+    text-align: center; /* Center-align the text */
+    padding: 10px 0; /* Add some spacing */
+    font-size: 14px; /* Slightly smaller font */
+    color: var(--c-dark);
 }
 
 
