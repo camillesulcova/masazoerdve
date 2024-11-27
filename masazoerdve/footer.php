@@ -32,7 +32,9 @@
             <h4 class="mb-4 text-black">Quick Links</h4>
             <a href="#about"><i class="fas fa-angle-right me-2"></i> About Us</a>
             <a href="#appointment"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-            <a href="<?php echo get_permalink(get_page_by_path('privacy-policy')); ?>"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+            <a href="https://example.com/wp-content/uploads/2024/11/privacy-policy.pdf" target="_blank">
+                    <i class="fas fa-angle-right me-2"></i> Privacy Policy
+            </a>
             </div>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
