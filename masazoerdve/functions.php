@@ -20,6 +20,13 @@ function masazoerdve() {
 }
 add_action("wp_enqueue_scripts", "masazoerdve");
 
+function enqueue_aos_scripts() {
+    wp_enqueue_style('aos-css', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css', array(), '2.3.4');
+    wp_enqueue_script('aos-js', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js', array('jquery'), '2.3.4', true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_aos_scripts');
+
+
 function masazoerdve_remove_gutenberg() {
     remove_post_type_support("post", "editor");
     remove_post_type_support("page", "editor");
