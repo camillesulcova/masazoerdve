@@ -32,8 +32,8 @@
             <h4 class="mb-4 text-black">Quick Links</h4>
             <a href="#about"><i class="fas fa-angle-right me-2"></i> About Us</a>
             <a href="#appointment"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-            <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-          </div>
+            <a href="<?php echo get_permalink(get_page_by_path('privacy-policy')); ?>"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+            </div>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
