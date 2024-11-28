@@ -12,8 +12,7 @@
         <div class="container position-relative">
         <div style="background-image: url(<?php echo $background_image["url"]; ?>); 
             background-size: contain; 
-            background-repeat: no-repeat; 
-            background-position: center; 
+            background-repeat: no-repeat;           
             width: 100%; 
             height: 500px;">
         </div>
