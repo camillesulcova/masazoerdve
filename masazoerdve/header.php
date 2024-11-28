@@ -23,7 +23,7 @@
     <div class="row gx-0 align-items-center" style="height: 45px;">
         <div class="col-lg-8 text-center text-lg-start mb-lg-0">
             <div class="d-flex flex-wrap">
-                <a href="#" class="text-light no-underline me-4"><i class="fas fa-map-marker-alt  me-2"></i><?php echo $location_cta; ?></a>
+                <a href="https://www.google.com/maps/place/Vilniaus+g.+105,+Raseiniai,+60171+Raseini%C5%B3+r.+sav.,+Litva/@55.3802693,23.1092247,487m/data=!3m2!1e3!4b1!4m6!3m5!1s0x46e686f013b9e5d7:0xd8c50581305838ba!8m2!3d55.3802663!4d23.1117996!16s%2Fg%2F11csjjgh0s!5m1!1e3?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" class="text-light no-underline me-4"><i class="fas fa-map-marker-alt  me-2"></i><?php echo $location_cta; ?></a>
                 <a href="#" class="text-light no-underline me-4"><i class="fas fa-phone-alt  me-2"></i><?php echo $phone_number; ?></a>
                 <a href="#" class="text-light no-underline me-0"><i class="fas fa-envelope  me-2"></i><?php echo $email; ?></a>
             </div>
