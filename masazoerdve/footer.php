@@ -7,7 +7,7 @@
           <div class="footer-item d-flex flex-column">
             <h4 class="text-black mb-4" style="color: var(--c-purple); d-flex justify-content-center align-items-center">Terapia</h4>
             <a href="#hero">
-            <img src="<?php echo $footer_logo['url'];?>" alt="Logo" style="max-height: 60px; width: auto;">
+            <img src="" alt="Logo" style="max-height: 60px; width: auto;">
             </a>
             
             <!-- Centered Social Media Section -->
