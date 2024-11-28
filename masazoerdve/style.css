@@ -173,7 +173,8 @@ h4, h4 {
     border-radius: 0px;
     padding: 12px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    max-width: 200px; /* Limit width */
 }
 
 .appointment-form button {
@@ -479,12 +480,7 @@ button.close:hover {
 }
 
 
-.appointment-form {
-    display: block;
-    visibility: visible;
-    height: auto;
-    max-width: 200px; /* Limit width */
-}
+
 
 
 .wpcf7 {
