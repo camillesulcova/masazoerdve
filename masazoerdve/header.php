@@ -17,6 +17,7 @@
                   $email = get_field("email");
                   $facebook = get_field ("facebook");
                   $instagram = get_field ("instagram");
+                  $logo = get_field ("logo");
                 ?>
   <!-- Topbar Start -->
 <div class="container-fluid topbar px-5 d-none d-lg-block">
@@ -48,7 +49,8 @@
     <section id="navigation">
       <nav class="navbar navbar-expand-lg navbar-light px-3 px-0 py-3 py-lg-0">
         <a href="#navigation" class="navbar-brand p-0">
-          <h1 class="text-success m-0"><i class="fas fa-star-of-life me-3"></i>Terapia</h1>
+          <!--<h1 class="text-success m-0"><i class="fas fa-star-of-life me-3"></i>Terapia</h1>-->
+          <img src="<?php echo $logo["url"]; ?>" class="logo" alt="<?php echo $logo; ?>">
           <!-- <img src="img/logo.png" alt="Logo">
         ???? logo???? -->
         </a>
