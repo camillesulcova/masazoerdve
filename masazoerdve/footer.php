@@ -9,21 +9,22 @@
            
             
             <!-- Centered Social Media Section -->
-            <div class="social-icons d-flex justify-content-center; align-items-center; mt-4">
-              <!-- Share Icon -->
-              <i class="fas fa-share fa-2x me-3" style="color: var(--c-purple); justify-content-center; align-items-center;"></i>
+<div class="social-icons d-flex justify-content-center align-items-center mt-4">
+  <!-- Share Icon -->
+  <i class="fas fa-share fa-2x me-3" style="color: var(--c-purple);"></i>
 
-              <!-- Social Media Icons -->
-              <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.facebook.com/kucinaitevelicke"
-                 style=" background-color: var(--c-purple); display: flex; align-items: center; justify-content: center; width: 30px; height: 30px;">
-                <i class="fab fa-facebook-f"></i>
-              </a>
+  <!-- Social Media Icons -->
+  <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.facebook.com/kucinaitevelicke"
+     style="background-color: var(--c-purple); display: flex; align-items: center; justify-content: center; width: 30px; height: 30px;">
+    <i class="fab fa-facebook-f"></i>
+  </a>
 
-              <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.instagram.com/kucinaitevelicke/?igsh=anYzc2psbHc5OGdz"
-                 style=" background-color: var(--c-purple); display: flex; align-items: flex-start; justify-content: flex-start; width: 30px; height: 30px;">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </div>
+  <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.instagram.com/kucinaitevelicke/?igsh=anYzc2psbHc5OGdz"
+     style="background-color: var(--c-purple); display: flex; align-items: center; justify-content: center; width: 30px; height: 30px;">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+
           </div>
         </div>
         <!-- Other sections remain unchanged -->
