@@ -8,7 +8,7 @@
     ?>
   <section id="instagram">
   <div class="instagram-wrapper">
-    <h2 class="instagram-heading">Check Us on Instagram!</h2> <!-- Centered Heading -->
+    <h2 class="instagram-heading">Check Us on Instagram!<a href="<?php echo $button_link;?>"></a></h2> <!-- Centered Heading -->
     <div class="container-fluid px-0">
       <div class="row g-0">
         <div class="col-lg-3 col-md-6">
