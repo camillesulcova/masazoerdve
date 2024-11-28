@@ -194,14 +194,14 @@ h4, h4 {
 }
 
 .appointment-form p {
-    font-size: 1.25rem;
+    font-size: 10px;
     color: var(--c-purple);
     font-weight: bold;
 }
 
 .appointment-form h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 10px;
+    margin-bottom: 10px;
     font-family: var(--h-font);
     color: var(--c-dark);
 }
