@@ -7,7 +7,7 @@
           <div class="footer-item d-flex flex-column">
             
             <a href="#hero" style="d-flex justify-content-center align-items-center">             
-            <img src="<?php echo get_template_directory_uri()  ?>/assets/logo.png" alt="logo" width="314" height="60">
+            <img src="<?php echo get_template_directory_uri()  ?>/assets/logo.png" alt="logo" width="280" height="auto">
             </a>
             
             <!-- Centered Social Media Section -->
