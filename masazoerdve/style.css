@@ -443,7 +443,7 @@ h4, h4 {
 }
 
 .wpcf7-submit {
-    background: var(--c-purple);
+    background: var(--c-dark);
     color: var(--c-light);
     font-family: var(--p-font);
     font-size: 16px;
