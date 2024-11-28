@@ -52,7 +52,7 @@
           <div class="footer-item d-flex flex-column">
             <h4 class="mb-4 text-black">Contact Info</h4>
             <a href=""><i class="fa fa-map-marker-alt me-2"></i>Vilniaus 105 Raseiniai</a>
-            <a href=""><i class="fas fa-envelope me-2"></i>rita.masazoerdve@gmail.com</a>
+            <a><i class="fas fa-envelope me-2"></i>rita.masazoerdve@gmail.com</a>
             <a href=""><i class="fas fa-phone me-2"></i>+37060715022</a>
           </div>
         </div>
