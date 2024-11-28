@@ -194,14 +194,14 @@ h4, h4 {
 }
 
 .appointment-form p {
-    font-size: 10px;
+    font-size: 1.25rem;
     color: var(--c-purple);
     font-weight: bold;
 }
 
 .appointment-form h1 {
-    font-size: 10px;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    margin-bottom: 20px;
     font-family: var(--h-font);
     color: var(--c-dark);
 }
@@ -447,17 +447,16 @@ h4, h4 {
     background: var(--c-purple);
     color: var(--c-light);
     font-family: var(--p-font);
-    font-size: 16px;
-    padding: 15px 30px;    
-    border: none; 
-    border-radius: 0px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    transition: all 0.3s ease;    
 }
 
 .wpcf7-submit:hover {
-    background: var(--c-pink);
+    background: var(--c-purple);
     color: var(--c-light);
-    transform: scale(1.05);
+    transform: translateY(-2px);      
 }
 
 .wpcf7-spinner {
