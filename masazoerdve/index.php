@@ -23,7 +23,7 @@
     <!--appointment-->
 
     <!--testimonials-->
-    <?php echo do_shortcode('[wp-testimonials widget-id=2]'); ?>
+    <?php echo do_shortcode('[wp-testimonials widget-id=3]'); ?>
     <!--testimonials-->
 
      <!-- Instagram -->
