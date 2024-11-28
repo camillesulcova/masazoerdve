@@ -59,9 +59,9 @@
             <a href="#hero" class="nav-item nav-link active">Home</a>
             <a href="#about" class="nav-item nav-link">About</a>
             <a href="#massages" class="nav-item nav-link">Services</a>
-            <a href="#appoitment" class="nav-item nav-link">Contact Us</a>
+            <a href="#appointment" class="nav-item nav-link">Contact Us</a>
           </div>
-          <a href="#appoitment" class="btn btn-book-appointment">Book Appointment</a>
+          <a href="#appointment" class="btn btn-book-appointment">Book Appointment</a>
         </div>
       </nav>
     </section>
