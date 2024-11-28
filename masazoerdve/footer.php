@@ -9,7 +9,7 @@
            
             
             <!-- Centered Social Media Section -->
-            <div class="social-icons d-flex justify-content-flex-start align-items-flex-start mt-4">
+            <div class="social-icons d-flex justify-content-center; align-items-center; mt-4">
               <!-- Share Icon -->
               <i class="fas fa-share fa-2x me-3" style=" color: var(--c-purple);"></i>
 
