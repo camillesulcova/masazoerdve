@@ -19,7 +19,7 @@
     <!--benefits-->
 
     <!--appointment ------------------------------------------------------------------------------------------no works-->
-    <?php get_template_part('template-parts/appointment'); ?>  
+    <?php get_template_part("template-parts/appointment"); ?>  
     <!--appointment-->
 
     <!--testimonials-->
