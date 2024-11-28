@@ -5,7 +5,7 @@
       <div class="row g-5 justify-content-center text-center">
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
-            <h4 class="text-black mb-4"><i class="fas fa-star-of-life me-3"></i>Terapia</h4>
+            <h4 class="text-black mb-4">Terapia</h4>
            
             
             <!-- Centered Social Media Section -->
