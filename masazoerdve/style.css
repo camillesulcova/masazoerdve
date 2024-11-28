@@ -305,7 +305,7 @@ h4, h4 {
 
 /* Footer */
 .footer {
-    background-color: var(--c-light);
+    background-color: var(--c-light) !important;
     color: var(--c-dark);
     padding: 40px 20px;
     text-align: center;
