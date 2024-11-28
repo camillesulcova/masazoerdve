@@ -51,6 +51,7 @@ $benefit_description = get_field("benefit_description");
             </div>
             
             <?php endwhile ?>
+            <?php  wp_reset_postdata(); ?>
             <?php endif ?>
           </div>
         </div>
