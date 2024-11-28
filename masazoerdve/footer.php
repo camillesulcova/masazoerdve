@@ -5,8 +5,7 @@
       <div class="row g-5 justify-content-center text-center">
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
-            <h4 class="text-black mb-4" style="color: var(--c-purple); d-flex justify-content-center align-items-center">Terapia</h4>
-            <a href="#hero">
+            <a href="#hero" style="d-flex justify-content-center align-items-center">
             <img src="" style="max-height: 60px; width: auto;">
             </a>
             
