@@ -48,7 +48,7 @@
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
             <h4 class="mb-4 text-black">Contact Info</h4>
-            <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
+            <a href=""><i class="fa fa-map-marker-alt me-2"></i>Vilniaus 105 Raseiniai</a>
             <a href=""><i class="fas fa-envelope me-2"></i>rita.masazoerdve@gmail.com</a>
             <a href=""><i class="fas fa-phone me-2"></i>+37060715022</a>
           </div>
