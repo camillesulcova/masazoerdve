@@ -26,7 +26,9 @@
     <?php echo do_shortcode('[wp-testimonials widget-id=1]'); ?>
     <!--testimonials-->
 
-
+     <!-- Instagram -->
+    <?php echo get_template_part("template-parts/instagram"); ?>
+     <!-- Instagram End -->
         <?php endwhile ?>
     <?php endif ?>
 <?php get_footer() ?>      
