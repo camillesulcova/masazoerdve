@@ -5,25 +5,27 @@
       <div class="row g-5 justify-content-center text-center">
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
-            <h4 class="text-black mb-4"><i class="fas fa-star-of-life me-3"></i>Terapia</h4>
-           
+            <a href="#hero" style="d-flex justify-content-center align-items-center">
+            <img src="" style="max-height: 60px; width: auto;">
+            </a>
             
             <!-- Centered Social Media Section -->
-            <div class="social-icons d-flex justify-content-center align-items-center mt-4">
-              <!-- Share Icon -->
-              <i class="fas fa-share fa-2x me-3" style=" color: var(--c-purple);"></i>
+<div class="social-icons d-flex justify-content-center align-items-center mt-4">
+  <!-- Share Icon -->
+  <i class="fas fa-share fa-2x me-3" style="color: var(--c-purple); d-flex justify-content-center align-items-center"></i>
 
-              <!-- Social Media Icons -->
-              <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.facebook.com/kucinaitevelicke"
-                 style=" background-color: var(--c-purple); display: flex; align-items: center; justify-content: center; width: 30px; height: 30px;">
-                <i class="fab fa-facebook-f"></i>
-              </a>
+  <!-- Social Media Icons -->
+  <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.facebook.com/kucinaitevelicke"
+     style="background-color: var(--c-purple); display: flex; align-items: center; justify-content: center; width: 30px; height: 30px;">
+    <i class="fab fa-facebook-f"></i>
+  </a>
 
-              <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.instagram.com/kucinaitevelicke/?igsh=anYzc2psbHc5OGdz"
-                 style=" background-color: var(--c-purple); display: flex; align-items: center; justify-content: center; width: 30px; height: 30px;">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </div>
+  <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.instagram.com/kucinaitevelicke/?igsh=anYzc2psbHc5OGdz"
+     style="background-color: var(--c-purple); display: flex; align-items: center; justify-content: center; width: 30px; height: 30px;">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+
           </div>
         </div>
         <!-- Other sections remain unchanged -->
