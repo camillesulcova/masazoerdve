@@ -5,9 +5,10 @@
       <div class="row g-5 justify-content-center text-center">
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
-            <img src="<?php echo $logo["url"]; ?>" class="logo" alt="<?php echo $logo; ?>">
+            
             <a href="#hero" style="d-flex justify-content-center align-items-center">
-            <img src="" style="max-height: 60px; width: auto;">
+            <img src="<?php echo $logo["url"]; ?>" class="logo" style="max-height: 60px; width: auto;" alt="<?php echo $logo; ?> ">
+            <!-- <img src="" style="max-height: 60px; width: auto;"> -->
             </a>
             
             <!-- Centered Social Media Section -->
