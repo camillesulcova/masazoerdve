@@ -152,20 +152,31 @@ h4, h4 {
   
 
 /* Appointment Section */
-.appointment {
-    background: url('../img/carousel-2.jpg') center center no-repeat;
-    background-size: cover;
-    padding: 80px 0;
+
+.appointment-form [type="submit"]:hover {
+    background-color: var(--c-purple);
+    color: var(--c-light);
+    transform: scale(1.05); /* Add a hover effect */
+}
+
+/* Form Titles */
+.appointment-form h1, .appointment-form h3 {
+    font-size: 1.5rem; /* Smaller headings */
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .appointment .appointment-form {
     background: rgba(246, 180, 191, 0.3);
-    padding: 30px;
+    padding: 20px;
     border-radius: 0px;
     box-shadow: var(--c-pink);
+    max-width: 400px;
 }
 
-.appointment-form input,
+.appointment-form input[type="text"],
+.appointment-form input[type="email"],
+.appointment-form input[type="tel"],
 .appointment-form select,
 .appointment-form textarea {
     background-color: #f0f0f0;
@@ -174,7 +185,7 @@ h4, h4 {
     padding: 8px 10px;
     width: 100%;
     margin-bottom: 10px;
-   
+    font-size: 14px;
 }
 
 .appointment-form button {
@@ -204,6 +215,35 @@ h4, h4 {
     margin-bottom: 20px;
     font-family: var(--h-font);
     color: var(--c-dark);
+}
+
+/* Submit Button */
+.appointment-form [type="submit"] {
+    font-size: 14px; /* Adjust button font size */
+    padding: 12px 20px; /* Make button size smaller */
+    background-color: var(--c-pink);
+    color: var(--c-light);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .appointment-form {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .appointment-form input,
+    .appointment-form select,
+    .appointment-form textarea {
+        font-size: 12px; /* Smaller font size for inputs */
+    }
+
+    .appointment-form h1, .appointment-form h3 {
+        font-size: 1.2rem; /* Smaller headings */
+    }
 }
 
 /* Servicios */
