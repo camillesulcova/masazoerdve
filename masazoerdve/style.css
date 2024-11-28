@@ -483,6 +483,7 @@ button.close:hover {
     display: block;
     visibility: visible;
     height: auto;
+    max-width: 400px; /* Limit width */
 }
 
 
@@ -495,8 +496,18 @@ button.close:hover {
 
 
 .wpcf7-form-control {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    width: 100%; /* Full width fields */
 }
+
+/* Form Labels */
+.wpcf7 label {
+    display: block;
+    margin-bottom: 5px; /* Smaller space between labels and fields */
+    font-size: 14px;
+    color: var(--c-dark);
+}
+
 
 /* Medias Queries */
 @media (max-width: 768px) {
