@@ -1,3 +1,15 @@
+<?php
+// Debug ACF fields
+global $post; // Ensures we are using the correct post/page context
+if (function_exists('get_fields')) {
+    $all_fields = get_fields($post->ID); // Fetch all ACF fields for the current post/page
+    echo '<pre>';
+    print_r($all_fields); // Output all the fields to check their names and values
+    echo '</pre>';
+} else {
+    echo "ACF plugin is not active.";
+}
+?>
 <?php 
   $appointment_headline = get_field("appointment_headline");
   $appointment_cta = get_field("appointment_cta");
