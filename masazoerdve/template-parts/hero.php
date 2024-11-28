@@ -11,7 +11,7 @@
       <div class="container">
         <div class="container position-relative">
           <div class="hero-image col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover" data-aos="fade-left"
-            style="background-image: url(<?php echo $background_image["url"] ?>); background-size: contain;"></div>
+            style="background-image: url(<?php echo $background_image["url"] ?>); background-size: contain;   background-repeat: no-repeat;"></div>
            
           <div class="row"> 
             <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
