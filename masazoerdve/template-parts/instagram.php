@@ -21,7 +21,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="lc-block">
-          <a href="#" target="_blank">
+          <a href="https://www.instagram.com/kucinaitevelicke/?igsh=anYzc2psbHc5OGdz" target="_blank">
               <img class="img-fluid" loading="lazy" alt="Photo by Mathyas Kurmann"
               src="<?php echo $pic_2["url"]; ?>">
               </a>
@@ -29,7 +29,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="lc-block">
-            <a href="#" target="_blank">
+            <a href="https://www.instagram.com/kucinaitevelicke/?igsh=anYzc2psbHc5OGdz" target="_blank">
               <img class="img-fluid" loading="lazy" alt="Photo by Reinis Birznieks"
               src="<?php echo $pic_3["url"]; ?>">
             </a>
@@ -37,7 +37,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="lc-block">
-            <a href="#" target="_blank">
+            <a href="https://www.instagram.com/kucinaitevelicke/?igsh=anYzc2psbHc5OGdz" target="_blank">
               <img class="img-fluid" loading="lazy" alt="Photo by Ishan @seefromthesky"
               src="<?php echo $pic_4["url"]; ?>">
             </a>
