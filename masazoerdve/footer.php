@@ -11,7 +11,7 @@
             <!-- Centered Social Media Section -->
             <div class="social-icons d-flex justify-content-center; align-items-center; mt-4">
               <!-- Share Icon -->
-              <i class="fas fa-share fa-2x me-3" style=" color: var(--c-purple);"></i>
+              <i class="fas fa-share fa-2x me-3" style="color: var(--c-purple); justify-content-center; align-items-center;"></i>
 
               <!-- Social Media Icons -->
               <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.facebook.com/kucinaitevelicke"
