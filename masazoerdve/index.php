@@ -18,7 +18,7 @@
     <?php get_template_part("template-parts/benefits"); ?>
     <!--benefits-->
 
-    <!--appointment ------------------------------------------------------------------------------------------no works-->
+    <!--appointment -->
     <?php get_template_part("template-parts/appointment"); ?>  
     <!--appointment-->
 
