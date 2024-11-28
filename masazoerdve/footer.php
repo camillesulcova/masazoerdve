@@ -9,7 +9,7 @@
            
             
             <!-- Centered Social Media Section -->
-            <div class="social-icons d-flex justify-content-center align-items-center mt-4">
+            <div class="social-icons d-flex justify-content-flex-start align-items-flex-start mt-4">
               <!-- Share Icon -->
               <i class="fas fa-share fa-2x me-3" style=" color: var(--c-purple);"></i>
 
@@ -20,7 +20,7 @@
               </a>
 
               <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.instagram.com/kucinaitevelicke/?igsh=anYzc2psbHc5OGdz"
-                 style=" background-color: var(--c-purple); display: flex; align-items: center; justify-content: center; width: 30px; height: 30px;">
+                 style=" background-color: var(--c-purple); display: flex; align-items: flex-start; justify-content: flex-start; width: 30px; height: 30px;">
                 <i class="fab fa-instagram"></i>
               </a>
             </div>
