@@ -13,7 +13,7 @@
       <div class="row g-0">
         <div class="col-lg-3 col-md-6">
           <div class="lc-block">
-            <a href="#" target="_blank">
+            <a href="https://www.instagram.com/kucinaitevelicke/?igsh=anYzc2psbHc5OGdz" target="_blank">
               <img class="img-fluid" loading="lazy" alt="Photo by Ishan @seefromthesky"
                 src="<?php echo $pic_1["url"]; ?>">
             </a>
