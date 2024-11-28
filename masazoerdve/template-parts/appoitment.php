@@ -29,19 +29,19 @@
             <div>
               <!-- Massage Services -->
               <div class="mb-4">
-                <h5 class="mb-3" style="color: var(--c-dark);"style="font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i><?php echo $list_headline_1;?></h5>
+                <h5 class="mb-3" style="color: var(--c-dark); font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i><?php echo $list_headline_1;?></h5>
                 <p class="text-muted mb-0">
                     <?php echo $appointment_list_1;?>
                 </p>
               </div>
               <div class="mb-4">
-                <h5 class="mb-3" style="color: var(--c-dark);" style="font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i><?php echo $list_headline_2;?></h5>
+                <h5 class="mb-3" style="color: var(--c-dark); font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i><?php echo $list_headline_2;?></h5>
                 <p class="text-muted mb-0">
                     <?php echo $appointment_list_2;?>
                 </p>
               </div>
               <div class="mb-4">
-                <h5 class="mb-3" style="color: var(--c-dark);" style="font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i><?php echo $list_headline_3;?></h5>
+                <h5 class="mb-3" style="color: var(--c-dark); font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i><?php echo $list_headline_3;?></h5>
                 <p class="text-muted mb-0" >
                     <?php echo $appointment_list_3;?>
                 </p>
