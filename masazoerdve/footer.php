@@ -6,9 +6,9 @@
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
             <h4 class="text-black mb-4" style="color: var(--c-purple); d-flex justify-content-center align-items-center">Terapia</h4>
-            <a href="<?php echo get_permalink(get_page_by_path("front-page")); ?>">
+            <a href="#hero">
             <img src="<?php echo $footer_logo['url'];?>" alt="Logo" style="max-height: 60px; width: auto;">
-          </a>
+            </a>
             
             <!-- Centered Social Media Section -->
 <div class="social-icons d-flex justify-content-center align-items-center mt-4">
