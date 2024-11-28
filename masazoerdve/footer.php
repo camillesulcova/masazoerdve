@@ -15,7 +15,7 @@
 
               <!-- Social Media Icons -->
               <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.facebook.com/kucinaitevelicke"
-                 style=" background-color: var(--c-purple); display: flex; align-items: left; justify-content: left; width: 30px; height: 30px;">
+                 style=" background-color: var(--c-purple); display: flex; align-items: center; justify-content: center; width: 30px; height: 30px;">
                 <i class="fab fa-facebook-f"></i>
               </a>
 
