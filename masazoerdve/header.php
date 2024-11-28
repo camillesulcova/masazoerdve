@@ -46,7 +46,7 @@
     <!--nav-->
     <section id="navigation">
       <nav class="navbar navbar-expand-lg navbar-light px-3 px-0 py-3 py-lg-0">
-        <a href="index.html" class="navbar-brand p-0">
+        <a href="#navigation" class="navbar-brand p-0">
           <h1 class="text-success m-0"><i class="fas fa-star-of-life me-3"></i>Terapia</h1>
           <!-- <img src="img/logo.png" alt="Logo">
         ???? logo???? -->
@@ -56,7 +56,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
-            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="#hero" class="nav-item nav-link active">Home</a>
             <a href="#about" class="nav-item nav-link">About</a>
             <a href="#massages" class="nav-item nav-link">Services</a>
             <a href="#appoitment" class="nav-item nav-link">Contact Us</a>
