@@ -26,7 +26,12 @@
     <?php echo do_shortcode('[wp-testimonials widget-id=1]'); ?>
     <!--testimonials-->
 
-
+    <script>
+  // Initialize AOS with a custom duration
+  AOS.init({
+    duration: 1200,  // Duration of the animation in milliseconds (2 seconds)
+  });
+    </script>
         <?php endwhile ?>
     <?php endif ?>
 <?php get_footer() ?>      
