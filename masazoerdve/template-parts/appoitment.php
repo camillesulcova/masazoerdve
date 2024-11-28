@@ -7,6 +7,10 @@
   $appointment_list_3 = get_field("appointment_list_3");
   $title_modal_appointment = get_field("title_modal_appointment");
   $subtitle_modal_appointment = get_field("subtitle_modal_appointment");
+  $list_headline_1 = get_field("list_headline_1");
+  $list_headline_2 = get_field("list_headline_2");
+  $list_headline_3 = get_field("list_headline_3");
+ 
   ?>
 
 
@@ -25,19 +29,19 @@
             <div>
               <!-- Massage Services -->
               <div class="mb-4">
-                <h5 class="mb-3" style="color: var(--c-dark);"style="font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i>Meridijaninis kūno masažas  €30 / 60 min</h5>
+                <h5 class="mb-3" style="color: var(--c-dark);"style="font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i><?php echo $list_headline_1;?></h5>
                 <p class="text-muted mb-0">
                     <?php echo $appointment_list_1;?>
                 </p>
               </div>
               <div class="mb-4">
-                <h5 class="mb-3" style="color: var(--c-dark);" style="font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i>Klasikinis kūno masažas  €20 / 60 min</h5>
+                <h5 class="mb-3" style="color: var(--c-dark);" style="font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i><?php echo $list_headline_2;?></h5>
                 <p class="text-muted mb-0">
                     <?php echo $appointment_list_2;?>
                 </p>
               </div>
               <div class="mb-4">
-                <h5 class="mb-3" style="color: var(--c-dark);" style="font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i>Pėdų masažas  €30 / 60 min</h5>
+                <h5 class="mb-3" style="color: var(--c-dark);" style="font-weight: bold;"><i class="fa fa-check me-2" style="color: var(--c-pink);"></i><?php echo $list_headline_3;?></h5>
                 <p class="text-muted mb-0" >
                     <?php echo $appointment_list_3;?>
                 </p>
