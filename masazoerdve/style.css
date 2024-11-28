@@ -319,8 +319,8 @@ h4, h4 {
 /* Align the social media icons in the center */
 .social-icons {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Adjust links and paragraphs */
