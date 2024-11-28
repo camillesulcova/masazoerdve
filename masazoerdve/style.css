@@ -159,8 +159,8 @@ h4, h4 {
 }
 
 .appointment .appointment-form {
-    background: rgba(246, 180, 191, 0.3);
-    padding: 20px;
+    background:var(--c-light) !important;
+    padding: 10px;
     border-radius: 0px;
     box-shadow: var(--c-pink);
 }
