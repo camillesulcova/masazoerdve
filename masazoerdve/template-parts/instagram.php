@@ -13,7 +13,7 @@
       <div class="row g-0">
         <div class="col-lg-3 col-md-6">
           <div class="lc-block">
-            <a href="<?php echo $button_link;?>" target="_blank">
+            <a href="#" target="_blank">
               <img class="img-fluid" loading="lazy" alt="Photo by Ishan @seefromthesky"
                 src="<?php echo $pic_1["url"]; ?>">
             </a>
@@ -21,25 +21,25 @@
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="lc-block">
-            <a href="<?php echo $pic_2["url"]; ?>" target="_blank">
+          <a href="#" target="_blank">
               <img class="img-fluid" loading="lazy" alt="Photo by Mathyas Kurmann"
-              src="img/insta4.png">
-            </a>
+              src="<?php echo $pic_2["url"]; ?>">
+              </a>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="lc-block">
-            <a href="<?php echo $pic_3["url"]; ?>" target="_blank">
+            <a href="#" target="_blank">
               <img class="img-fluid" loading="lazy" alt="Photo by Reinis Birznieks"
-              src="img/insta2.png">
+              src="<?php echo $pic_3["url"]; ?>">
             </a>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="lc-block">
-            <a href="<?php echo $pic_4["url"]; ?>" target="_blank">
+            <a href="#" target="_blank">
               <img class="img-fluid" loading="lazy" alt="Photo by Ishan @seefromthesky"
-              src="img/insta1.png">
+              src="<?php echo $pic_4["url"]; ?>">
             </a>
           </div>
         </div>
