@@ -6,9 +6,8 @@
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
             
-            <a href="#hero" style="d-flex justify-content-center align-items-center">
-            <img src="<?php echo $logo["url"]; ?>" class="logo" style="max-height: 60px; width: auto;" alt="<?php echo $logo; ?> ">
-            <!-- <img src="" style="max-height: 60px; width: auto;"> -->
+            <a href="#hero" style="d-flex justify-content-center align-items-center">             
+            <img src="<?php echo get_template_directory_uri()  ?>/assets/logo.png" alt="logo" width="314" height="60">
             </a>
             
             <!-- Centered Social Media Section -->
