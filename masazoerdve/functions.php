@@ -9,8 +9,9 @@ function masazoerdve() {
     // Enqueue Scripts
     wp_enqueue_script("jquery", "https://code.jquery.com/jquery-3.6.0.min.js", array(), null, true);
     wp_enqueue_script("popper", "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js", array(), null, true);
+    wp_enqueue_script("modal", "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js", array(), null, true);
     wp_enqueue_script("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js", array("jquery", "popper"), null, true);
-    
+
     // Enqueue AOS Library
     wp_enqueue_style("aos-css", "https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css");
     wp_enqueue_script("aos-js", "https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js", array(), null, true);
@@ -19,6 +20,13 @@ function masazoerdve() {
     wp_add_inline_script("aos-js", "AOS.init();");
 }
 add_action("wp_enqueue_scripts", "masazoerdve");
+
+ function enqueue_aos_scripts() {
+    wp_enqueue_style('aos-css', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css', array(), '2.3.4');
+    wp_enqueue_script('aos-js', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js', array('jquery'), '2.3.4', true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_aos_scripts'); 
+
 
 function masazoerdve_remove_gutenberg() {
     remove_post_type_support("post", "editor");

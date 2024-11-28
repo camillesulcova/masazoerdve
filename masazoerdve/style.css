@@ -4,7 +4,7 @@ Author: MStudio
 Description: Therapist website
 */
 
-/* Importación de fuentes */
+/* Fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -22,7 +22,7 @@ Description: Therapist website
     --p-font: 'Poppins';
 }
 
-/* Estilos Globales */
+/* Global style */
 body {
     font-family: var(--p-font);
     background-color: var(--c-light);
@@ -30,11 +30,11 @@ body {
     overflow-x: hidden;
 }
 
-/* Títulos Principales */
+/* main titles */
 h1, .h1 {
     font-family: var(--h-font);
     font-size: 56px;
-    line-height: 64px;
+    line-height: 38px;
     font-weight: lighter;
 }
 
@@ -48,6 +48,12 @@ h3, .h3 {
     font-family: var(--p-font);
     font-size: 32px;
     line-height: 40px;
+}
+
+h4, h4 {
+    font-family: var(--p-font);
+    font-size: 24px;
+    line-height: 32px;
 }
 
 
@@ -298,11 +304,16 @@ h3, .h3 {
 
 /* Footer */
 .footer {
-    background: rgb(243, 243, 243);
+    background-color: var(--c-light);
     color: var(--c-dark);
     padding: 40px 20px;
     text-align: center;
     font-family: var(--p-font);
+}
+
+.footer .footer-item {
+    text-align: left; /* Align text to the left */
+    justify-content: flex-start; /* Align items to the start of the container */
 }
 
 /* Align the social media icons in the center */
@@ -318,11 +329,22 @@ h3, .h3 {
     color: var(--c-dark);
     line-height: 35px;
     transition: letter-spacing 0.5s ease, color 0.5s ease;
+    text-align: left;
 }
+
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
     color: var(--c-pink);
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    background-color: var(--c-light);
+    text-align: center; /* Center-align the text */
+    padding: 10px 0; /* Add some spacing */
+    font-size: 14px; /* Slightly smaller font */
+    color: var(--c-dark);
 }
 
 
@@ -408,7 +430,73 @@ h3, .h3 {
     color: var(--c-light);
     transform: scale(1.05);
 }
-   
+
+/* Modal  */
+.modal-content {      
+    margin-top: 15px;
+    color: var(--c-dark);
+    background-color: var(--c-light);
+}
+
+.modal-title {
+    color: var(--c-purple);
+}
+
+.wpcf7-submit {
+    background: var(--c-purple);
+    color: var(--c-light);
+    font-family: var(--p-font);
+    font-size: 16px;
+    padding: 15px 30px;    
+    border: none; 
+    border-radius: 0px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wpcf7-submit:hover {
+    background: var(--c-pink);
+    color: var(--c-light);
+    transform: scale(1.05);
+}
+
+.wpcf7-spinner {
+    color: var(--c-purple);
+}
+
+button.close {
+    color: var(--c-dark); 
+    background: transparent; 
+    border: none;
+    font-size: 20px; 
+    cursor: pointer; 
+    padding: 0;
+    margin: 0;
+}
+
+button.close:hover {
+    color: var(--c-purple); 
+    transform: scale(1.1); 
+}
+
+
+.appointment-form {
+    display: block;
+    visibility: visible;
+    height: auto;
+}
+
+
+.wpcf7 {
+    background-color: var(--c-pink);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.wpcf7-form-control {
+    margin-bottom: 15px;
+}
 
 /* Medias Queries */
 @media (max-width: 768px) {
