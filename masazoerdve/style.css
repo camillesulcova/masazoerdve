@@ -163,7 +163,6 @@ h4, h4 {
     padding: 20px;
     border-radius: 0px;
     box-shadow: var(--c-pink);
-    max-width: 400px;
 }
 
 .appointment-form input,
