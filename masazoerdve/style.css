@@ -483,7 +483,7 @@ button.close:hover {
     display: block;
     visibility: visible;
     height: auto;
-    max-width: 400px; /* Limit width */
+    max-width: 200px; /* Limit width */
 }
 
 
