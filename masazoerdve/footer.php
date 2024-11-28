@@ -32,28 +32,28 @@
         <!-- Other sections remain unchanged -->
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
-            <h4 class="mb-4 text-black">Quick Links</h4>
-            <a href="#about"><i class="fas fa-angle-right me-2"></i> About Us</a>
-            <a href="#appointment"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+            <h4 class="mb-4 text-black">Informacija</h4>
+            <a href="#about"><i class="fas fa-angle-right me-2"></i> Apie mane</a>
+            <a href="#appointment"><i class="fas fa-angle-right me-2"></i> Rezervuoti masažą</a>
             <a href="https://masazoerdve.lt/wp-content/uploads/2024/11/Privatumo-Politika.pdf">
-                    <i class="fas fa-angle-right me-2"></i> Privacy Policy
+                    <i class="fas fa-angle-right me-2"></i> Privatumo politika
             </a>
             </div>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
-            <h4 class="mb-4 text-black">Terapia Services</h4>
-            <a href="#massages"><i class="fas fa-angle-right me-2"></i> Physiotherapy</a>
-            <a href="#massages"><i class="fas fa-angle-right me-2"></i> Diagnostics</a>
-            <a href="#massages"><i class="fas fa-angle-right me-2"></i> Manual Therapy</a>
+            <h4 class="mb-4 text-black">Masažai</h4>
+            <a href="#massages"><i class="fas fa-angle-right me-2"></i> Pėdų masažas</a>
+            <a href="#massages"><i class="fas fa-angle-right me-2"></i> Klasikinis masažas</a>
+            <a href="#massages"><i class="fas fa-angle-right me-2"></i> Meridianinis masažas</a>
           </div>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
-            <h4 class="mb-4 text-black">Contact Info</h4>
-            <a href=""><i class="fa fa-map-marker-alt me-2"></i>Vilniaus 105 Raseiniai</a>
+            <h4 class="mb-4 text-black">Kontaktai</h4>
+            <a><i class="fa fa-map-marker-alt me-2"></i>Vilniaus 105 Raseiniai</a>
             <a><i class="fas fa-envelope me-2"></i>rita.masazoerdve@gmail.com</a>
-            <a href=""><i class="fas fa-phone me-2"></i>+37060715022</a>
+            <a><i class="fas fa-phone me-2"></i>+37060715022</a>
           </div>
         </div>
       </div>
