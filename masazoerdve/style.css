@@ -33,7 +33,7 @@ body {
 /* main titles */
 h1, .h1 {
     font-family: var(--h-font);
-    font-size: 56px;
+    font-size: 48px;
     line-height: 38px;
     font-weight: lighter;
 }

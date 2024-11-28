@@ -16,8 +16,9 @@
           <div class="row"> 
             <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
               <h1 class="display-1 mt-5" style="line-height: 1.2;"><?php echo $hero_title ?></h1>
+              <br>
               <p class="lead"><?php echo $hero_text ?></p>
-
+              <br>
               <!--modal button, change btn-primary for something in our css to personalize-->
               <button type="button" class="btn btn-contact-me btn-lg" data-toggle="modal" 
                 data-target="#bookAppointmentModal"><?php echo $hero_btn ?>
