@@ -19,6 +19,8 @@ function masazoerdve() {
     // Initialize AOS
     wp_add_inline_script("aos-js", "AOS.init();");
   
+
+    
     
     wp_enqueue_script("local-script", get_template_directory_uri() . "/script.js", array("jquery"), null, true);
 
