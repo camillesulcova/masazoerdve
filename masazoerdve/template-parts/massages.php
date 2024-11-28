@@ -80,7 +80,7 @@
                     <p><?php echo $massage_cta; ?></p>
                   </div>
                   <div class="col-md-6" style="padding-top: 5rem;">
-                    <img src="<?php echo $card_image["url"]; ?>" class="d-block w-100 massages-img" alt="<?php echo $massage_type; ?>">
+                    <img src="<?php echo $card_image["sizes"]["large"]; ?>" class="d-block w-100 massages-img" alt="<?php echo $massage_type; ?>">
                   </div>
                 </div>
               </div>
