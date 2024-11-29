@@ -59,12 +59,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
-            <a href="#hero" class="nav-item nav-link active">Home</a>
-            <a href="#about" class="nav-item nav-link">About</a>
-            <a href="#massages" class="nav-item nav-link">Services</a>
-            <a href="#appointment" class="nav-item nav-link">Contact Us</a>
+            <a href="#hero" class="nav-item nav-link active">Pagrindinis</a>
+            <a href="#about" class="nav-item nav-link">Apie</a>
+            <a href="#massages" class="nav-item nav-link">Masažai</a>
+            <a href="#appointment" class="nav-item nav-link">Kontaktai</a>
           </div>
-          <a href="#appointment" class="btn btn-book-appointment">Book Appointment</a>
+          <a href="#appointment" class="btn btn-book-appointment">Užsakyti masažą</a>
         </div>
       </nav>
     </section>
