@@ -266,6 +266,13 @@ h4, h4 {
     color: var(--c-dark);
 }
 
+/* picture instead of form*/
+.cupon_pic {
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 /* Instagram Section */
 
