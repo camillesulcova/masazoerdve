@@ -60,7 +60,7 @@
         <!-- Right Block -->
         <div class="col-lg-6" data-aos="fade-left" data-aos-delay="500">
           <div class="col-md-6" style="padding-top: 5rem;">
-            <img src="<?php echo $coupon_pic["sizes"]["large"]; ?>" class="d-block w-100 cupon_pic" alt="<?php echo $coupon_pic; ?>">
+            <img src="<?php echo $coupon_pic["sizes"]["large"]; ?>" class="cupon_pic" alt="<?php echo $coupon_pic; ?>">
           </div>
         </div>
       </div>
