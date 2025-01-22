@@ -11,6 +11,8 @@
   $list_headline_1 = get_field("list_headline_1");
   $list_headline_2 = get_field("list_headline_2");
   $list_headline_3 = get_field("list_headline_3");
+  $coupon_pic = get_field("coupon_pic");
+  $hero_btn = get_field("hero_btn");
  
   ?>
 
@@ -47,6 +49,9 @@
                     <?php echo $appointment_list_3;?>
                 </p>
               </div>
+              <button type="button" class="btn btn-contact-me btn-lg" data-toggle="modal" 
+                data-target="#bookAppointmentModal"><?php echo $hero_btn ?>
+              </button>
             </div>
           </div>
         </div>
@@ -54,7 +59,7 @@
         <!-- Right Block -->
         <div class="col-lg-6" data-aos="fade-left" data-aos-delay="500">
           <div class="col-md-6" style="padding-top: 5rem;">
-            <img src="<?php echo $cuponimg["sizes"]["large"]; ?>" class="d-block w-100 cupon-img" alt="<?php echo $cuponimg; ?>">
+            <img src="<?php echo $coupon_pic["sizes"]["large"]; ?>" class="d-block w-100 cupon_pic" alt="<?php echo $coupon_pic; ?>">
           </div>
         </div>
       </div>
