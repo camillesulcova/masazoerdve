@@ -17,7 +17,7 @@
   ?>
 
 
-<section id="appointment" style="padding-top: 7rem;">   
+<section id="appointment" style="padding-top: 7rem padding-bottom: 7rem;">   
   <div class="container-fluid appointment py-5">
     <div class="container pt-4">
       <div class="row g-5 align-items-start">
@@ -49,6 +49,7 @@
                     <?php echo $appointment_list_3;?>
                 </p>
               </div>
+              <br>
               <button type="button" class="btn btn-contact-me btn-lg" data-toggle="modal" 
                 data-target="#bookAppointmentModal"><?php echo $hero_btn ?>
               </button>
@@ -65,4 +66,5 @@
       </div>
     </div>
   </div>
+  
 </section>
