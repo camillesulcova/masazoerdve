@@ -12,13 +12,13 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navScroll">
 <?php
-                  $location_cta= get_field("location_cta");
-                  $phone_number = get_field("phone_number");
-                  $email = get_field("email");
-                  $facebook = get_field ("facebook");
-                  $instagram = get_field ("instagram");
-                  $logo = get_field ("logo");
-                ?>
+      $location_cta= get_field("location_cta");
+      $phone_number = get_field("phone_number");
+      $email = get_field("email");
+      $facebook = get_field ("facebook");
+      $instagram = get_field ("instagram");
+      $logo = get_field ("logo");
+ ?>
   <!-- Topbar Start -->
 <div class="container-fluid topbar px-5 d-none d-lg-block">
   <div class="container">

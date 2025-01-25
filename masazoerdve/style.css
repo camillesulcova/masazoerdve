@@ -5,11 +5,8 @@ Description: Therapist website
 */
 
 /* Fonts*/
-
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
 
 /* Variables */
 :root {
@@ -57,14 +54,14 @@ h4, h4 {
 }
 
 
-/*** Topbar Start ***/
+/* Topbar Start*/
 .fixed-top .container {
     transition: 0.3s;
 }
 
 .no-underline {
     text-decoration: none;
-  }
+}
    
 .topbar {
     padding: 2px 40px;
@@ -87,7 +84,7 @@ h4, h4 {
         display: none;    
     }
 }
-/*** Topbar End ***/
+/* Topbar End */
 
 /* Navbar */
 .navbar-light .navbar-nav .nav-link {
@@ -143,14 +140,20 @@ h4, h4 {
     transform: rotate(360deg);
 }
 
+/* hide the picture in the hero part
 @media (max-width: 1189px) {
     .hero-image {
       display: none;
     }
-  }
+} */
 
-  
-
+/* hide the text in the hero part */
+@media (max-width: 1189px) {
+    .heading-massage-block {
+        display: none;
+    }
+}
+ 
 /* Appointment Section */
 .appointment {
     background: url('../img/carousel-2.jpg') center center no-repeat;
@@ -158,12 +161,11 @@ h4, h4 {
     padding: 80px 0;
 }
 
-/*form*/
 .appointment .appointment-form {
     background: rgba(246, 180, 191, 0.3);
     padding: 30px;
     border-radius: 0px;
-    box-shadow: var(--c-pink);
+    /*box-shadow: var(--c-pink);*/
 }
 
 .appointment-form input,
@@ -267,11 +269,20 @@ h4, h4 {
 }
 
 /* picture instead of form*/
-.cupon_pic {
-    align-items: center;
-    justify-content: center;
-
+.coupon_pic {
+    /*align-items: center;
+    justify-content: center; for use this we need display flex*/
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
+
+#appointment .coupon_pic {
+    max-width: 100%;          
+    height: auto;             
+    object-fit: contain;}
+
 
 
 /* Instagram Section */
@@ -279,6 +290,8 @@ h4, h4 {
 #instagram {
     position: relative;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   
   .instagram-wrapper {
