@@ -17,7 +17,7 @@
   ?>
 
 
-<section id="appointment" style="padding-top: 6rem; padding-bottom: 6rem;">   
+<section id="appointment" style="padding-top: 5rem; padding-bottom: 6rem;">   
   <div class="container-fluid appointment py-5">
     <div class="container pt-4">
       <div class="row g-5 align-items-start">

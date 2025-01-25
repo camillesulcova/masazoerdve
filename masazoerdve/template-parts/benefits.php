@@ -24,19 +24,19 @@ $benefit_description = get_field("benefit_description");
                 <!-- custom loop for benefits -->
                 <?php
                                
-                                $benefit= new WP_Query(array(
-                                 'post_type' => 'benefit',
-                                  'posts_per_page' => -1,
-                                                          ));
-                                                      ?>
-                                                      
-                                      <?php if($benefit->have_posts()): ?>
-                                       <?php while($benefit->have_posts()): $benefit->the_post(); ?>
-                                       <?php
-                                  $headline_benefit_card = get_field("headline_benefit_card");
-                                  $benefit_card_description = get_field("benefit_card_description");
-                                  $icon = get_field("icon");
-                                  ?>
+                      $benefit= new WP_Query(array(
+                        'post_type' => 'benefit',
+                        'posts_per_page' => -1,
+                                                ));
+                                            ?>
+                                            
+                            <?php if($benefit->have_posts()): ?>
+                              <?php while($benefit->have_posts()): $benefit->the_post(); ?>
+                              <?php
+                        $headline_benefit_card = get_field("headline_benefit_card");
+                        $benefit_card_description = get_field("benefit_card_description");
+                        $icon = get_field("icon");
+                        ?>
 
             <div class="col-md-6 col-lg-4 border-end">
               <div class="py-3 text-start">                
