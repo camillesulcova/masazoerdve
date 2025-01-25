@@ -6,7 +6,7 @@
     $pic_4 = get_field("pic_4");
     $button_link = get_field("button_link");
     ?>
-  <section id="instagram">
+  <section id="instagram" style="padding-top: 4rem; padding-bottom: 2rem;">
   <div class="instagram-wrapper">
     <h2 class="instagram-heading">Check Us on Instagram!</h2> <!-- Centered Heading -->
     <div class="container-fluid px-0">

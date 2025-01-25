@@ -58,8 +58,8 @@
         </div>
 
         <!-- Right Block -->
-        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="500">
-          <div class="col-md-6" style="padding-top: 5rem;">
+        <div class="col-lg-6 d-flex justify-content-center align-items-center" data-aos="fade-left" data-aos-delay="500">
+          <div class="col-md-6">
             <img src="<?php echo $coupon_pic["sizes"]["large"]; ?>" class="coupon_pic" alt="<?php echo $coupon_pic; ?>">
           </div>
         </div>
