@@ -149,7 +149,7 @@ h4, h4 {
 
 /* hide the text in the hero part */
 @media (max-width: 1189px) {
-    .text-massage {
+    .thesentence {
         display: none;
     }
 }
