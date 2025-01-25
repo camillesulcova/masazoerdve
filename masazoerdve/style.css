@@ -457,7 +457,7 @@ h4, h4 {
 .modal-content {      
     margin-top: 15px;
     color: var(--c-dark);
-    background-color: var(--c-bg-light);
+    background-color: var(--c-light);
 }
 
 .modal-title {
