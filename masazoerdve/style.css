@@ -201,11 +201,41 @@ h4, h4 {
     font-weight: bold;
 }
 
+
 .appointment-form h1 {
     font-size: 2rem;
     margin-bottom: 20px;
     font-family: var(--h-font);
     color: var(--c-dark);
+}
+
+.coupon_pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coupon_pic {
+    width: 100%;
+    max-width: 600px; /* Increase the size */
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 1024px) {
+    .appointment-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .appointment-text, .appointment-image {
+        max-width: 100%;
+    }
+
+    .appointment-image img {
+        max-width: 80%; /* Adjust image for smaller screens */
+    }
 }
 
 /* Servicios */
