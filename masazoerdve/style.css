@@ -271,7 +271,7 @@ h4, h4 {
     color: var(--c-dark);
 }
 
-/* picture instead of form*/
+/* picture instead of form
 .coupon_pic {
     max-width: 100%; 
     height: auto;  
@@ -280,7 +280,20 @@ h4, h4 {
 #appointment .coupon_pic {
     max-width: 100%;          
     height: auto;             
-    object-fit: contain;}
+    object-fit: contain;} */
+
+/* test image sizes*/
+#appointment .col-md-6 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#appointment .coupon_pic {
+    max-width: 80%; 
+    height: auto;
+    object-fit: contain;
+}
 
 /* Instagram Section */
 
