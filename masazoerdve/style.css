@@ -271,12 +271,12 @@ h4, h4 {
     color: var(--c-dark);
 }
 
-/*coupon pic */
+/*coupon pic 
 
 .coupon_pic {
     max-width: 100%; 
     height: auto;  
-}
+} */
 
 #appointment .coupon_pic {
     max-width: 100%;          
@@ -285,7 +285,9 @@ h4, h4 {
 ;} 
 
 #appointment .col-md-6 {
-    width: 100%; 
+    width: 50%; 
+    max-width: 600px;
+    margin: auto;
 }
 
 /* Instagram Section */
