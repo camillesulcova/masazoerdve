@@ -271,7 +271,8 @@ h4, h4 {
     color: var(--c-dark);
 }
 
-/* picture instead of form
+/*coupon pic */
+
 .coupon_pic {
     max-width: 100%; 
     height: auto;  
@@ -280,21 +281,11 @@ h4, h4 {
 #appointment .coupon_pic {
     max-width: 100%;          
     height: auto;             
-    object-fit: contain;} */
-
-/* test image sizes*/
-#appointment .col-md-6 {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
-
-#appointment .coupon_pic {
-    max-width: 80%; /* Controla el ancho de la imagen */
-    max-height: 100%; /* Evita que la imagen sobrepase el contenedor */
-    height: auto; /* Mantiene la proporción */
     object-fit: contain;
-    min-height: 500px; 
+;} 
+
+#appointment .col-md-6 {
+    width: 100%; 
 }
 
 /* Instagram Section */
