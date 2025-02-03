@@ -290,8 +290,8 @@ h4, h4 {
 }
 
 #appointment .coupon_pic {
-    max-width: 80%; 
-    height: auto;
+    max-width: 90%; 
+    height:max-content;
     object-fit: contain;
 }
 
